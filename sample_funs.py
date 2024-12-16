@@ -1,7 +1,6 @@
 # libraries 
 import numpy as np
 from numpy.random import normal
-
 import pandas as pd
 import matplotlib.pyplot as plt
 import random
