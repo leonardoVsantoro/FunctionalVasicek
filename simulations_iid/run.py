@@ -27,12 +27,12 @@ pickle_file_path = './out_{}/{}.pickle'.format(MODEL_NAME, filename)
 # import functions
 import sys
 sys.path.append('../') 
-from sampe_funs import *
+from fun import *
 
 # running the simulations and storing the result
 
 results = []
-from tqdm import tqdm
+from tqdm import tqdm # type: ignore
 for it in tqdm(np.arange(N_ITERS)):
     Rs = np.array([ EulerMaruyama_approx_sol(model.dt,model.T, model.mu, model.theta_fun ,model.sg_fun, model.R0()) for i in range(model.N)])
     results.append(runs(Rs))

@@ -1,13 +1,9 @@
 # libraries 
-import numpy as np
-from numpy.random import normal
-import pandas as pd
-import matplotlib.pyplot as plt
-import random
-import itertools
-
-import scipy
-from scipy.integrate import simps as simps
+import numpy as np# type: ignore
+from numpy.random import normal# type: ignore
+import pandas as pd# type: ignore
+import matplotlib.pyplot as plt# type: ignore
+from scipy.integrate import simps as simps# type: ignore
 
 
 

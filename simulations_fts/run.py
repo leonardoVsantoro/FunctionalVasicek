@@ -18,7 +18,7 @@ pickle_file_path = './out/{}.pickle'.format(filename)
 # import functions
 import sys
 sys.path.append('../') 
-from sampe_funs import *
+from fun import *
 
 # running the simulations and storing the result
 def task(it):
